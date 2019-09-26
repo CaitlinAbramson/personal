@@ -2,7 +2,7 @@
 
 <head> 
 	<title> Caitlin Abramson </title>
-	<link href="personalSS.css" rel="stylesheet" type="text/css">
+	<link href="stylesheet.css" rel="stylesheet" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -10,10 +10,9 @@
 </head>
 
 <body>
-	<div class="nav">
-		<li class="nav_link home"> <a href=#home> <h6>Home</h6> </a> </li>
+	<div id="nav">
 		<li class="nav_link about"> <a href="#aboutMe"> <h6>About Me</h6> </a> </li>
-		<li class="nav_link exp"> <a href=#exp> <h6>Experience</h6> </a> </li>
+		<li class="nav_link exp"> <a href="#exp"> <h6>Experience</h6> </a> </li>
 		<li class="nav_link portfolio"> <a href=#port> <h6>Portfolio</h6> </a> </li>
 	</div>
 
@@ -30,17 +29,21 @@
 			<div class = "left_text">
 				<div class = "create"> <h3> Create from research. </h3> </div>
 				<div class = "develop"> <h3> Develop from design. </h3> </div>
-				<div class = "curious"> <h5> #staycurious </h5> </div>
-				<div class = "yellow_under"> </div>
+				<div class = "curious"> <a href="#aboutMe"> <h5> #staycurious </h5> </a> </div>
+				<div class = "yellow_under first"> </div>
 			</div>
 		</div>
-
 	</div>
 
+		<!-- <a class = "top_button" href="#nav">
+			<p> </p>
+		</a> -->
+		
 	<div class="about_me">
 		<a id="aboutMe"> About Me </a>
+		<div class = "yellow_under second"> </div>
 		<p class = "about_me_intro">
-			Welcome to my page! If you're here, you're probably looking to learn a little bit more about who I am. Currently, I am a fourth year at the University of Virginia studying Cognitive Science (concentrating in Computer Science) and Social Entrepreneurship. As an aspiring designer, I believe colors are sometimes better at created personality than words. Below is the color palette I used for this site, which was carefully picked to also reflect who I am.
+			Welcome to my page! If you're here, you're probably looking to learn a little bit more about who I am. Currently, I am a fourth year at the University of Virginia studying Cognitive Science (concentrating in Computer Science) and Social Entrepreneurship. As an aspiring developer with an understanding of design, I believe colors are sometimes better at created personality than words. Below is the color palette I used for this site, which was carefully picked to also reflect who I am.
 		</p>
 		<div class = "blocks">
 			<div class = "block_1">
@@ -70,16 +73,166 @@
 			</div> 
 		</div>
 		<p class = "about_me_intro">
-			Yellow: as an extrovert, I felt I was well-represented with yellow. It is cheerful and welcoming. It is not an in-your-face kind of yellow, but instead, a yellow with a sense of direction and passion. <br> <br>
+			Yellow: as an extrovert, I felt I was well-represented with yellow. It is not an in-your-face kind of yellow, but instead, it feels welcoming and cozy, like I do when reading a book or writing. It feels lively and energetic, like I do when talking to friends or listening to music or a good podcast. <br> <br>
 
-			Orange: creativity was something that I didn't realize I had until college. In high school, my best friends were beautiful artists. I was not. It seemed black and white to me: they were the creative ones, I was the science-y one. While I may not have attended art school, my creativity was in my design and my thought-process. In my head, I am constantly taking note of how something looks, how it works, and I am always thinking of ways it could be better. Anything that I interact with, I consider <emphasis> how </emphasis> I am interacting. This extends to: interior design, apps, products, organziation. <br> <br>
+			Orange: creativity wasn't something I thought had until college, when I discovered it lay within my thought process and passion for design. I am constantly taking note of how something looks, how it works, and how I interact with it. While I admire good design, I also love to envision ways to make bad design better. This includes anything from interior design to apps to products to organziation. <br> <br>
 
-			Dark Blue: to balance my creativity, I am analytical. I have always been drawn to science. I like the hard evidence it requires. Today, I use science to back my design. Psychology and neuroscience should inform design - we are building for human interaction, and so we should design our builds to support how humans inately want to interact. Design without reason seems pointless, but so does functionality without creative understanding of the users. <br> <br>
+			Dark Blue: to balance my creativity, I am analytical. I have always been drawn to science. I like the hard evidence it requires. Psychology and neuroscience should inform design - we are building for inate human interaction. <br> <br>
 
-			Light Blue: sure, curiosity may kill the cat, but curiosity is also how innovations and inventions begin. Without a curious mind, without asking questions, everything remains as is. Technology has the power to change the status quo, but it won't do so without our exploration into new ideas and what may currently seems impossible. <br> <br>
+			Light Blue: sure, curiosity may kill the cat, but without a curious mind and without asking questions, everything remains as is. I want to help improve the status quo, and so, I try to not put limits on my ideas and imagination. <br> <br>
 
-			Gray: ideas may be limitless, but materials and energy is not. I try to remind myself to be resourceful with my hours of every day. What do I want to get done? What do I want to do for myself? What do I want to do for others? I like my sleep, so I have about 16 hours every day - more than enough time to make it a good one. <br> <br>
+			Gray: What do I want to get done today? What do I want to do for others? What do I want to do for myself? I work to be resourceful with my days. I like my sleep, so I have about 16 hours every day, which is more than enough time to make it a good one. <br> <br>
 		</p>
 	</div>
 
+	<div class="exp">
+		<a id="exp"> Experience </a>
+		<div class = "yellow_under third"> </div>
+		<!-- <div class = "buttons">
+			<a class="exp_button resume" href="\Users\Caitlin Abramson\Documents\Resumes\Resume.pdf"> Resume </a>
+			<a class="exp_button ref" href=""> Letter of Recommendation </a>
+		</div> -->
+		<div class = "exp_text">
+			<h3> Cierant Corporation </h3>
+			<h6 class = "dates"> June 2018 - Present </h6>
+			<div class = "sub_point">
+				<div class = "bullet"> 
+					<div class = "b1"> </div>
+					<div class = "b2"> </div>
+					<div class = "b3"> </div>
+					<div class = "b4"> </div>
+				</div>
+				<h4 class = "exp_point_header"> User Experience </h4>
+				<p class = "exp_point">
+						As part of the Design Team at Cierant Corporation, I gained experience working with all aspects of the UX lifecycle. I conducted research to learn about users' pain points and created user personas and scenarios to inform our design. During team meetings, we created group sketches, which I then turned into wireframes and prototypes, using Adobe XD and Pop by Marvel. I presented these designs to clients and included them within our specification documents. 
+						<br> <br>
+						With my 2 years at Cierant, I learned the importance of understanding users’ needs and designing before development. We have begun the process of shifting from a develop-then-design mentality to one that includes iterative steps of design, development, and stakeholder communication. 
+						<br> <br>
+				</p>
+			</div>
+			<div class = "sub_point">
+				<div class = "bullet"> 
+					<div class = "b1"> </div>
+					<div class = "b2"> </div>
+					<div class = "b3"> </div>
+					<div class = "b4"> </div>
+				</div>
+				<h4 class = "exp_point_header"> Development </h4>
+				<p class = "exp_point">
+					I am currently in the process creating an internal Design and Code Library so that it is easier to keep applications stylistically similar and avoid recreating custom solutions. This library will provide snippets of code written in pure HTML/CSS, for Angular and JavaScript frameworks, and in C#. This project will involve modifying and updating code to match modern design standards and our company’s branding vision. <br> <br>
+					I also worked on a front-end project in which I helped set-up, structure, and customize a WordPress site that will be used as marketing and promotional material for one of our applications. Using a Genesis framework with a child theme, plug-ins, and custom HTML and CSS, I established a general structure and workflow for the final site. <br> <br>
+				</p>
+			</div>
+			<div class = "sub_point">
+				<div class = "bullet"> 
+					<div class = "b1"> </div>
+					<div class = "b2"> </div>
+					<div class = "b3"> </div>
+					<div class = "b4"> </div>
+				</div>
+				<h4 class = "exp_point_header"> Project Management and Business Analyst </h4>
+				<p class = "exp_point">
+					As part of the effort to revolutionize the company's workflow, I redesigned the structure and procedure for writing business and technical requirement documents. The documents include annotated wireframes or prototypes, followed by user stores, and depending on the project, sprint tasks for developers. This document serves as a platform for communication and compromise between the developers and stakeholders. While writing these documents myself, I worked closely with developers to ensure we were promising a minimal viable product that was reasonable and within budget. 
+				</p>
+			</div>
+			<div class = "sub_point">
+				<div class = "bullet"> 
+					<div class = "b1"> </div>
+					<div class = "b2"> </div>
+					<div class = "b3"> </div>
+					<div class = "b4"> </div>
+				</div>
+				<h4 class = "exp_point_header"> Testing </h4>
+				<p class = "exp_point">
+					In addition to changing the documentation process, I helped to create a new QA Testing system. I researched typical procedures and designed a SmartSheet and Excel guideline and template. Any future large or full-system testing task began with adapting the testing template to fit the application's architecture. After this template proved to work well, I used it to test applications I helped design. 	 
+				</p>
+			</div>
+		<div class = "exp_2">
+			<h3> Social Neuroscience Lab (UVA) </h3>
+			<h6 class = "dates"> August 2017 - May 2018 </h6>
+			<div class = "sub_point">
+				<div class = "bullet"> 
+					<div class = "b1"> </div>
+					<div class = "b2"> </div>
+					<div class = "b3"> </div>
+					<div class = "b4"> </div>
+				</div>
+				<h4 class = "exp_point_header"> Research Assistant </h4>
+				<p class = "exp_point">
+					I was a research assistant for two experiments during my year with UVA’s Social Neuroscience Research Lab. The first was an EEG study examining the effects of cognitive and emotional regulation techniques. The second experiment studied the effect of a positive, negative, or neutral visual imagery on one's tolerance of an ice-water stressor task. Being a research assistant helped me to realize my passion for being involved with the application of research. My boss introduced me to the field of User Experience for the first time. It excited me to find a way to combine neurological and psychological research with modern technological advancements. 
+				</p>
+			</div>
+		</div>
+		<div class = "exp_3">
+			<h3> Run-A-Ton Group, Inc </h3>
+			<h6 class = "dates"> July 2017 - April 2019 </h6>
+			<div class = "sub_point">
+				<div class = "bullet"> 
+					<div class = "b1"> </div>
+					<div class = "b2"> </div>
+					<div class = "b3"> </div>
+					<div class = "b4"> </div>
+				</div>
+				<h4 class = "exp_point_header"> Product and Package Design </h4>
+				<p class = "exp_point">
+					I worked with a team to help rebrand a vegan and allergen-friendly energy product. This included analyzing survey and in-store experimentation results. With a persona and user data in mind, we combined a few design elements together to create the final packaging.
+				</p>
+			</div>
+			<div class = "sub_point">
+				<div class = "bullet"> 
+					<div class = "b1"> </div>
+					<div class = "b2"> </div>
+					<div class = "b3"> </div>
+					<div class = "b4"> </div>
+				</div>
+				<h4 class = "exp_point_header"> Social Media Marketing Planner </h4>
+				<p class = "exp_point">
+					To help increase product awareness, we worked on creating a social media prescence on Instagram and Facebook. I established a guideline for the types of posts we thought would best target our main persona. This included media marketing strategies, emotional reactions we wanted from end-users, and content planning. Additionally, I set up and ran a spreadsheet calendar to keep posts organized and on-schedule. 
+				</p>
+			</div>
+		</div>
+		<div class = "exp_4">
+			<h3> University of Virginia </h3>
+			<h6 class = "dates"> August 2016 - May 2020 </h6>
+			<div class = "sub_point">
+				<div class = "bullet"> 
+					<div class = "b1"> </div>
+					<div class = "b2"> </div>
+					<div class = "b3"> </div>
+					<div class = "b4"> </div>
+				</div>
+				<h4 class = "exp_point_header"> Major: Cognitive Science (Concentration: Computer Science) </h4>
+				<p class = "exp_point">
+					A holistic and interdisciplinary study of Computer Science, Cognitive Psychology, Neuroscience, Philosophy, and Linguistics to further understanding of human-computer interaction, intelligence, reasoning, and perception for application in software and product development.
+				</p>
+			</div>
+			<div class = "sub_point">
+				<div class = "bullet"> 
+					<div class = "b1"> </div>
+					<div class = "b2"> </div>
+					<div class = "b3"> </div>
+					<div class = "b4"> </div>
+				</div>
+				<h4 class = "exp_point_header"> Minor: Social Entrepreneurship </h4>
+				<p class = "exp_point">
+					This program allows for classes to be taken within both the McIntire School of Commerce and the Frank Batten School of Public Policy. The curriculum teaches us how to create monetary and social value from startups, how to innovate on real societal issues, and how to empirically analyze a company’s social impact. 
+				</p>
+			</div>
+			<div class = "sub_point">
+				<div class = "bullet"> 
+					<div class = "b1"> </div>
+					<div class = "b2"> </div>
+					<div class = "b3"> </div>
+					<div class = "b4"> </div>
+				</div>
+				<h4 class = "exp_point_header"> Clubs and Activities </h4>
+				<p class = "exp_point">
+					I have loved all of my years at UVA. Some of that is because of the amazing professors, some of that is because of the life-long friendships I developed, and some of it is because of our community of giving back. Over the years, I participated in many different volunteer programs. My first year, I helped start a program at a local library that provided toys to be checked out by children who couldn't afford their own. My second year, I was a teacher's aide in kindergarten and second grade classrooms. My third year, I helped English as a second language (ESOL) high school students learn English and adapt to their new schools. My fourth year, I am a ULink Advisor to first-years, serving as a peer-leader to answer any questions they may have. In addition to volunteering, I also wrote for the Cavalier Daily's Health and Science Section.
+				</p>
+			</div>
+		</div>
+	</div>
+	
 </body>
+
+<!-- <script src="script.js"> </script> -->
