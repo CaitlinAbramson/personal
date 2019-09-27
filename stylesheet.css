@@ -3,7 +3,9 @@
 
 *, *:before, *:after{ box-sizing: border-box; }
 
-body{ font-family: 'Montserrat', sans-serif; }
+body{ 
+	font-family: 'Montserrat', sans-serif; 
+	margin: 0px;}
 
 h1{ 
 	font-size: 43.75px; 
@@ -100,9 +102,6 @@ p{
 
 
 /* Homepage - Setting up split screen*/
-.homepage{
-	margin-top: -10px;
-}
 
 .right{
 	width: 50%;
