@@ -183,7 +183,7 @@ p{
 	color: #303C6C;
 }
 
-.first {
+.under_curious {
 	left: 100%;
 	margin: 0 auto;
 	width: 100px;
@@ -195,7 +195,7 @@ p{
 .about_me {
 	margin-bottom: 50px;
 }
-.second {
+.under_about {
 	width: 180px;
 	margin-left: 45px;
 	margin-top: 5px;
@@ -293,7 +293,7 @@ p{
 
 
 /* Experience */
-.third {
+.under_exp {
 	width: 210px;
 	margin-left: 45px;
 	margin-top: 5px;
@@ -370,12 +370,12 @@ p{
 
 /* Portfolio */
 
-.fourth {
+.under_port {
 	width: 160px;
 	margin-left: 45px;
 }
 
-.port h3 {
+.row h3 {
 	margin-left: 75px;
 	margin-top: 50px;
 }
@@ -383,6 +383,7 @@ p{
 .port_container{
 	width: 1000px;
 	margin: 0 auto;
+	margin-top: 50px;
 }
 
 .row {
@@ -390,32 +391,143 @@ p{
   flex-direction: row;
   flex-wrap: wrap;
   background-color: rgba(170, 170, 170, .3);
+  width: 100%;
 }
 
 .column {
   display: flex;
   flex-basis: 100%;
-  flex: 3;
-  /*margin: 0px 20px 0px 20px;*/
-  padding: 30px 30px 30px 0px;
+  flex-direction: column;
+  padding: 0px 30px 30px 0px;
   justify-content: center;
+  flex: 1;
+}
+
+.top {
+	padding-top: 30px;
 }
 
 .left{
 	padding-left: 30px;
 }
 
-.column img {
-	width: 100%;
-	height: auto;
+.proj_workout{
+	flex: 3;
 }
 
+.column img {
+	width: 100%;
+}
+
+.fifth{
+	flex: 2.5;
+}
+
+.fifth img{
+	height: 382px;
+	margin-top: -90px;
+}
+
+.four_fifths{
+	flex: 7.5;
+	margin-top: -90px;
+}
+
+.work_proj_1{
+	height: calc(382px + 60px);
+}
+
+.half{
+	flex: 5;
+	width: 30%;
+	height: 310px;
+	padding-left: 30px;
+	margin-bottom: -30px;
+}
+
+.adjust_1{
+	margin-bottom: -120px;
+}
+
+
+/*.overlay{
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #B4DFE5;
+	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+}*/
+
+/*.r1c1:hover .overlay {
+  opacity: 1;
+}*/
+
 @media screen and (min-width: 800px) {
-	._30 {
+	.thirds {
 		flex: 3;
 	}
 }
 
+/*
+
+.four_fifths{
+	flex: 8;
+	height: 400px;
+	width: auto;
+}
+
+.four_fifths img{
+	height: 400px;
+	width: calc(auto-10);
+}
+
+.fifth{
+	flex: 2;
+	height: 400px;
+}
+
+.fifth img{
+	height: 400px;
+	width: auto;
+}
+
+.small {
+	height: 460px;
+	width: auto;
+}
+
+.short {
+	height: 560px;
+}
+
+.short img {
+	height: 500px;
+}
 
 
+*/
 
+.grid_container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.grid{
+	display: flex;
+	flex-basis: 100%;
+	padding: 0px 30px 30px 0px;
+	background-color: rgba(170, 170, 170, .3);
+
+}
+
+.col{
+	flex: 1;
+	width: auto;
+}
+
+.col img{
+	width: 33%;
+}
