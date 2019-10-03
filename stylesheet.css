@@ -9,32 +9,33 @@ body{
 }
 
 h1{ 
-	font-size: 43.75px; 
+	font-size: 3.052em; 
 	font-weight: 400;
 }
 
 h2{
-	font-size: 35px;
+	font-size: 2.441em;
 	font-weight: 400;
 }
 
 h3{
-	font-size: 28px;
+	font-size: 1.953em;
 	font-weight: 400;
 }
 
 h4{
-	font-size: 22.40px;
+	font-size: 1.563em;
 	font-weight: 400;
 }
 
 h5{
-	font-size: 17.92px;
+	font-size: 1.25em;
 	font-weight: 400;
 }
 
 h6{
-	font-size: 14.34px;
+	font-size: 1em;
+
 	font-weight: 400;
 }
 
@@ -49,8 +50,8 @@ p{
 	background-color: #FBE8A6;
 }
 
-.about_me a, #exp, #port{
-	margin-left: 50px;
+#aboutMe, #exp, #port{
+	margin: 50px 0px 0px 50px;
 	font-size: 35px;
 	font-weight: 400;
 }
@@ -71,68 +72,55 @@ p{
 }*/
 
 /* Navigation */
-
-#nav {
-	list-style: none;
-	margin: 0;
+.nav {
+	max-width: 100%;
 	text-align: center;
-	width: 50%;
-	float: right;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px
 }
 
-#nav li{
-	display: inline;
-	padding-top: 10px;
-	padding-bottom: 10px;
-}
-
-#nav a{
-	display: inline-block;
-	text-decoration: none;
-	color: #AAAAAA;
-}
-
-#nav a:hover{
-	color: #303C6C;
-}
-
-.nav_link{
-	display: inline-block;
-	padding: 0px 40px 0px 40px;
+.nav-item{
+	padding: 0px 5% 0px 5%;
 }
 
 
 /* Homepage - Setting up split screen*/
 
+.homepage{
+	min-height: 100vh;
+}
+
 .right{
 	width: 50%;
-	height: auto;
-    min-height: 100vh;
+    height: 100vh;
 	float: left;
-	display: block;
-	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
 	background-color: #FBE8A6;
 	/*margin-top: -7px;*/
 }
 
-.left{
+.left_and_nav{
 	width: 50%;
-	height: auto;
-    min-height: 100vh;
+    /*min-height: 100vh;*/
 	float: right;
 	display: block;
+}
+
+.left{
+	height: 100vh;
+	display: flex;
+	align-items: center;
 }
 
 
 /* Homepage - Right*/
 .right_text {
-	position: absolute;
-    left: 0;
-    right: 0;
-    width: 50%;
-    text-align: center;
-    top: 50%;
-    margin-top: -100px;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .interests {
@@ -162,12 +150,10 @@ p{
 
 /* Homepage - Left */
 .left_text{
-	position: absolute;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
 	text-align: center;
-	display: inline-block;
-	top: 50%;
-	margin-top: -70px;
-	left: 67%;
 }
 
 .create, .curious {
@@ -190,27 +176,24 @@ p{
 }
 
 
-
 /* About Me */
 .about_me {
 	margin-bottom: 50px;
+	margin-top: 50px;
 }
+
 .under_about {
 	width: 180px;
 	margin-left: 45px;
 	margin-top: 5px;
 }
 
-
 .about_me_intro {
 	display: block;
-	width: 1000px;
 	margin: 0 auto;
-	margin-top: 50px;
-}
-
-.about_me_intro p {
+	padding: 0px 10% 0px 10%;
 	text-align: justify;
+	margin-top: 50px;
 }
 
 .blocks {
@@ -280,15 +263,12 @@ p{
 }
 
 .about_me_text {
-	margin: 50px 150px 0px 150px;
+	/*margin: 50px 150px 0px 150px;*/
+	padding: 0px 10% 0px 10%;
 }
 
 .about_me_text p{
 	text-align: justify;
-}
-
-.about_me_text p {
-	margin-left: 50px;
 }
 
 

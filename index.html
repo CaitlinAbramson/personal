@@ -2,7 +2,9 @@
 
 <head> 
 	<title> Caitlin Abramson </title>
+	<meta charset="utf-8">
 	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="bootstrap-iso.css" rel="stylesheet" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -10,13 +12,6 @@
 </head>
 
 <body>
-	<div id="nav">
-		<li class="nav_link"> <a href="#aboutMe"> <h6>About Me</h6> </a> </li>
-		<li class="nav_link"> <a href="#exp"> <h6>Experience</h6> </a> </li>
-		<li class="nav_link"> <a href="#port"> <h6> Portfolio </h6> </a> </li>
-		<li class="nav_link"> <a href="/Resume.pdf"> <h6>Resume</h6> </a> </li>
-	</div> 
-
 	<div class="homepage">
 		<img class = "logo" src="https://i.imgur.com/OMedT5h.jpg">
 		<div class = "right">
@@ -26,17 +21,26 @@
 				<div class = "interests"> <h5> Researcher &middot UX/UI &middot Developer </h5> </div>
 			</div>
 		</div>
-		<div class = "left">
-			<div class = "left_text">
-				<div class = "create"> <h3> Create from research. </h3> </div>
-				<div class = "develop"> <h3> Develop from design. </h3> </div>
-				<div class = "curious"> <a href="#aboutMe"> <h5> #staycurious </h5> </a> </div>
-				<div class = "yellow_under under_curious"> </div>
+		<div class = "left_and_nav">
+			<div class = "bootstrap-iso" id="#nav">
+				<nav class="nav nav-justified-center">
+  					<a class="nav-item nav-link" href="#aboutMe">About Me</a>
+  					<a class="nav-item nav-link" href="#exp">Experience</a>
+  					<a class="nav-item nav-link" href="#port">Portfolio</a>
+  					<a class="nav-item nav-link" href="Resume.pdf">Resume</a>
+				</nav> 
+			</div>
+			<div class = "left">
+				<div class = "left_text">
+					<div class = "create"> <h3> Create from research. </h3> </div>
+					<div class = "develop"> <h3> Develop from design. </h3> </div>
+					<div class = "curious"> <a href="#aboutMe"> <h5> #staycurious </h5> </a> </div>
+					<div class = "yellow_under under_curious"> </div>
+				</div>
 			</div>
 		</div>
 	</div>
 
-		
 	<div class="about_me">
 		<a id="aboutMe"> About Me </a>
 		<div class = "yellow_under under_about"> </div>
@@ -208,4 +212,8 @@
 		</div>
 	</div>
 			
+</body>
+
+
+		
 </body>
