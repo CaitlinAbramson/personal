@@ -2,7 +2,9 @@
 
 <head> 
 	<title> Caitlin Abramson </title>
-	<link href="personalSS.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8">
+	<link href="stylesheet.css" rel="stylesheet" type="text/css">
+	<link href="bootstrap-iso.css" rel="stylesheet" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
@@ -10,13 +12,6 @@
 </head>
 
 <body>
-	<div class="nav">
-		<li class="nav_link home"> <a href=#home> <h6>Home</h6> </a> </li>
-		<li class="nav_link about"> <a href="#aboutMe"> <h6>About Me</h6> </a> </li>
-		<li class="nav_link exp"> <a href=#exp> <h6>Experience</h6> </a> </li>
-		<li class="nav_link portfolio"> <a href=#port> <h6>Portfolio</h6> </a> </li>
-	</div>
-
 	<div class="homepage">
 		<img class = "logo" src="https://i.imgur.com/OMedT5h.jpg">
 		<div class = "right">
@@ -26,21 +21,31 @@
 				<div class = "interests"> <h5> Researcher &middot UX/UI &middot Developer </h5> </div>
 			</div>
 		</div>
-		<div class = "left">
-			<div class = "left_text">
-				<div class = "create"> <h3> Create from research. </h3> </div>
-				<div class = "develop"> <h3> Develop from design. </h3> </div>
-				<div class = "curious"> <h5> #staycurious </h5> </div>
-				<div class = "yellow_under"> </div>
+		<div class = "left_and_nav">
+			<div class = "bootstrap-iso" id="#nav">
+				<nav class="nav nav-justified-center">
+  					<a class="nav-item nav-link" href="#aboutMe">About Me</a>
+  					<a class="nav-item nav-link" href="#exp">Experience</a>
+  					<a class="nav-item nav-link" href="#port">Portfolio</a>
+  					<a class="nav-item nav-link" href="Resume.pdf">Resume</a>
+				</nav> 
+			</div>
+			<div class = "left">
+				<div class = "left_text">
+					<div class = "create"> <h3> Create from research. </h3> </div>
+					<div class = "develop"> <h3> Develop from design. </h3> </div>
+					<div class = "curious"> <a href="#aboutMe"> <h5> #staycurious </h5> </a> </div>
+					<div class = "yellow_under under_curious"> </div>
+				</div>
 			</div>
 		</div>
-
 	</div>
 
 	<div class="about_me">
 		<a id="aboutMe"> About Me </a>
+		<div class = "yellow_under under_about"> </div>
 		<p class = "about_me_intro">
-			Welcome to my page! If you're here, you're probably looking to learn a little bit more about who I am. Currently, I am a fourth year at the University of Virginia studying Cognitive Science (concentrating in Computer Science) and Social Entrepreneurship. As an aspiring designer, I believe colors are sometimes better at created personality than words. Below is the color palette I used for this site, which was carefully picked to also reflect who I am.
+			Welcome to my page! If you're here, you're probably looking to learn a little bit more about who I am. Currently, I am a fourth year at the University of Virginia studying Cognitive Science (concentrating in Computer Science) and Social Entrepreneurship. As an aspiring developer with an understanding of design, I believe colors are sometimes better at creating personality than words. Below is the color palette I used for this site, which was carefully picked to also reflect who I am.
 		</p>
 		<div class = "blocks">
 			<div class = "block_1">
@@ -70,16 +75,265 @@
 			</div> 
 		</div>
 		<p class = "about_me_intro">
-			Yellow: as an extrovert, I felt I was well-represented with yellow. It is cheerful and welcoming. It is not an in-your-face kind of yellow, but instead, a yellow with a sense of direction and passion. <br> <br>
+			Yellow: as an extrovert, I felt I was well-represented with yellow. It is not an in-your-face kind of yellow, but instead, it feels welcoming and cozy, like I do when reading a book or writing. It feels lively and energetic, like I do when talking to friends or listening to music or a good podcast. <br> <br>
 
-			Orange: creativity was something that I didn't realize I had until college. In high school, my best friends were beautiful artists. I was not. It seemed black and white to me: they were the creative ones, I was the science-y one. While I may not have attended art school, my creativity was in my design and my thought-process. In my head, I am constantly taking note of how something looks, how it works, and I am always thinking of ways it could be better. Anything that I interact with, I consider <emphasis> how </emphasis> I am interacting. This extends to: interior design, apps, products, organziation. <br> <br>
+			Orange: creativity wasn't something I thought had until college, when I discovered it lay within my thought process and passion for design. I am constantly taking note of how something looks, how it works, and how I interact with it. While I admire good design, I also love to envision ways to make bad design better. This includes anything from interior design to apps to products to organziation. <br> <br>
 
-			Dark Blue: to balance my creativity, I am analytical. I have always been drawn to science. I like the hard evidence it requires. Today, I use science to back my design. Psychology and neuroscience should inform design - we are building for human interaction, and so we should design our builds to support how humans inately want to interact. Design without reason seems pointless, but so does functionality without creative understanding of the users. <br> <br>
+			Dark Blue: to balance my creativity, I am analytical. I have always been drawn to science. I like the hard evidence it requires. Psychology and neuroscience should inform design - we are building for inate human interaction. <br> <br>
 
-			Light Blue: sure, curiosity may kill the cat, but curiosity is also how innovations and inventions begin. Without a curious mind, without asking questions, everything remains as is. Technology has the power to change the status quo, but it won't do so without our exploration into new ideas and what may currently seems impossible. <br> <br>
+			Light Blue: sure, curiosity may kill the cat, but without a curious mind and without asking questions, everything remains as is. I want to help improve the status quo, and so, I try to not put limits on my ideas and imagination. <br> <br>
 
-			Gray: ideas may be limitless, but materials and energy is not. I try to remind myself to be resourceful with my hours of every day. What do I want to get done? What do I want to do for myself? What do I want to do for others? I like my sleep, so I have about 16 hours every day - more than enough time to make it a good one. <br> <br>
+			Gray: What do I want to get done today? What do I want to do for others? What do I want to do for myself? I work to be resourceful with my days. I like my sleep, so I have about 16 hours every day, which is more than enough time to make it a good one. <br> <br>
 		</p>
 	</div>
 
+	<div class="exp">
+		<a id="exp"> Experience </a>
+		<div class = "yellow_under under_exp"> </div>
+		<h3> Cierant Corporation </h3>
+		<h6 class = "dates"> June 2018 - Present </h6>
+		<div class = "exp_container">
+			<h4 class = "exp_header h_one"> User Experience </h4>
+			<div class = "exp_img ux">
+				<img src = "https://imgur.com/ftd1KCt.png">
+			</div>
+			<div class = "exp_text text_one">
+				<p>
+					As part of the Design Team at Cierant Corporation, I gained experience working with all aspects of the UX lifecycle. I conducted research to learn about users' pain points and created user personas and scenarios to inform our design. During team meetings, we created group sketches, which I then turned into wireframes and prototypes, using Adobe XD and Pop by Marvel. I presented these designs to clients and included them within our specification documents. 
+					<br> <br>
+					With my 2 years at Cierant, I learned the importance of understanding users' needs and designing before development. We have begun the process of shifting from a develop-then-design mentality to one that includes iterative steps of design, development, and stakeholder communication.
+				</p>
+			</div>
+			<h4 class = "exp_header h_two"> Development </h4>
+			<div class = "exp_img dev">
+				<img src = "https://imgur.com/fMnYdVX.png">
+			</div>
+			<div class = "exp_text text_two">
+				<p>
+					I am currently in the process creating an internal Design and Code Library so that it is easier to keep applications stylistically similar and avoid recreating custom solutions. This library will provide snippets of code written in pure HTML/CSS, for Angular and JavaScript frameworks, and in C#. This project will involve modifying and updating code to match modern design standards and our company's branding vision. <br> <br>
+					I also worked on a front-end project in which I helped set-up, structure, and customize a WordPress site that will be used as marketing and promotional material for one of our applications. Using a Genesis framework with a child theme, plug-ins, and custom HTML and CSS, I established a general structure and workflow for the final site.
+				</p>
+			</div>
+			<h4 class = "exp_header h_three"> Business Analyst </h4>
+			<div class = "exp_img pm">
+				<img src = "https://imgur.com/1icTAd9.png">
+			</div>
+			<div class = "exp_text text_three">
+				<p>
+					As part of the effort to revolutionize the company's workflow, I redesigned the structure and procedure for writing business and technical requirement documents. The documents include annotated wireframes or prototypes, followed by user stores, and depending on the project, sprint tasks for developers. This document serves as a platform for communication and compromise between the developers and stakeholders. While writing these documents myself, I worked closely with developers to ensure we were promising a minimal viable product that was reasonable and within budget. 
+				</p>
+			</div>
+			<h4 class = "exp_header h_four"> Testing </h4>
+			<div class = "exp_img test">
+				<img src = "https://imgur.com/9JaLHAW.png">
+			</div>
+			<div class = "exp_text text_four">
+				<p>
+					In addition to changing the documentation process, I helped to create a new QA Testing system. I researched typical procedures and designed a SmartSheet and Excel guideline and template. Any future large or full-system testing task began with adapting the testing template to fit the application's architecture. After this template proved to work well, I used it to test applications I helped design. 
+				</p>
+			</div>
+		</div>
+		<h3> Social Neuroscience Lab (UVA) </h3>
+		<h6 class = "dates"> August 2017 - May 2018 </h6>
+		<div class = "exp_container">
+			<h4 class = "exp_header h_one"> Research Assistant </h4>
+			<div class = "exp_img ux">
+				<img src = "https://imgur.com/5K8qdH1.png">
+			</div>
+			<div class = "exp_text text_one">
+				<p>
+					As a research assistant, I ran trials and collected data for two experiments. The first was an EEG study examining the effects of cognitive and emotional regulation techniques. The second experiment studied the effect of a positive, negative, or neutral visual imagery on one's tolerance of an ice-water stressor task. 
+					<br> <br>
+					Being a research assistant helped me to realize my passion for being involved with the application of research. My boss introduced me to the field of User Experience for the first time. It excited me to find a way to combine neurological and psychological research with modern technological advancements. 
+				</p>
+			</div>
+		</div>
+		<h3> Run-A-Ton Group, Inc - MetaBall </h3>
+		<h6 class = "dates"> July 2017 - April 2019 </h6>
+		<div class = "exp_container">
+			<h4 class = "exp_header h_one"> Product Re-Branding </h4>
+			<div class = "exp_img ux">
+				<img src = "https://imgur.com/G6l3o5O.png">
+			</div>
+			<div class = "exp_text text_one">
+				<p>
+					I worked with a team to help rebrand a vegan and allergen-friendly energy product. This included analyzing survey and in-store experimentation results. With a persona and user data in mind, we combined a few design elements together to create the final packaging. 
+					<br> <br>
+					Additionally, to help increase product awareness, I worked to create a social media prescence on Instagram and Facebook. I established a guideline for the types of posts we thought would best target our main persona. This included media marketing strategies, emotional reactions we wanted from end-users, and content planning. Additionally, I set up and ran a spreadsheet calendar to keep posts organized and on-schedule.
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class = "portfolio">
+		<a id="port"> Portfolio </a>
+		<div class = "yellow_under under_port"> </div>
+		<div class = "port_img square"></div>
+		<div class = "port_container">
+			<div class = "port_img mobile_app_one"> 
+				<img src="https://imgur.com/eMYCQsV.png" alt="Workout App Mood Board">
+			</div>
+			<div class = "port_img hover_text hover_mobile_one">
+				<h4> Workout App Mood Board </h4>
+				<p>
+					When I was looking to find a workout app to help track my workouts and progress, I discovered a lot of them were not flexible and had an "intense" look-and-feel (think neon green and black). I had a vision for an app that left you feeling energized and clean, like how I feel after a workout. I created this mood board to capture that aesthetic.
+				</p>
+			</div>
+			<div class = "port_img mobile_app_two" alt = "Workout App Wireframe"> 
+				<img src="https://imgur.com/mKH41nT.png"> 
+			</div>
+			<div class = "port_img hover_text hover_mobile_two">
+				<h4> Workout App Wireframe </h4>
+				<p>
+					Before playing with the look-and-feel, I created a minimal wireframe to sketch out the framework and
+					functionality of my screens. This screen represents the timeline view to track workout history. 
+				</p>
+			</div>
+			<div class = "port_img mobile_app_three" alt = "Workout App Prototype"> 
+				<img src="https://imgur.com/vK89GVy.png">
+			</div>
+			<div class = "port_img hover_text hover_mobile_three">
+				<h4> Workout App Prototype </h4>
+				<p>
+					Combining my mood board and my wireframe, I created a high-fidelity prototype. To me, this piece is always a work-in-progress. I like to revise it, experiment with new ideas, design trends, and prototyping software techniques. This app has been a way for me to see my growth as a UX/UI designer.  
+				</p>
+			</div>
+		</div>
+		<div class = "port_container">
+			<div class = "port_img metaball">
+				<img src = "https://imgur.com/UACihGg.png">
+			</div>
+			<div class = "port_img hover_text hover_metaball">
+				<h4> MetaBall Rebranding </h4>
+				<p>
+					MetaBall Energy Bites is a family-owned product, and in 2017, we decided to rebrand the product. To see the old packaging for comparison, click <a href="https://cdn.shopify.com/s/files/1/2024/0675/products/074677531204_C1N1_300x300.jpg?v=1556307988">here</a>.
+					I helped create sketches and design components, and a contracted designer produced a number of packaging options. To help learn which packaging is most attractive to our target population best, we sent out a survey in which potential buyers ranked the designs. We also did in-store experimentation to analyze the designs that stood out on the shelves best. With these results, we created the final packaging which combined elements from a few of the design options.
+					<br> <br> <br> 
+					With the new packaging, we needed our <a href="https://www.metaballenergybites.com/">website</a> and <a href="https://www.instagram.com/metaballenergybites/?hl=en">social media</a> to match the branding. I contributed to the web design meetings, talking to developers and user experience designers to create a realistic plan for the new site. With each version of the site delivered to us, I helped test for bugs and tweak design elements. For our social media sites, I created a content guideline to make sure our posts are directed towards our intended consumers. I also developed a calendar to plan out posts and timing. 
+				</p>
+			</div>
+		</div>
+		<div class = "port_container">
+			<div class = "port_img persona_one"> 
+				<img src="https://imgur.com/rMg52CT.png">
+			</div>
+			<div class = "port_img hover_text hover_persona">
+				<h4> Persona </h4>
+				<p>
+					This is one example of a persona I created for a client project. In total, I created 4 personas. Emily was particularly kept in mind when designing one of the user paths. Shown on the right is a low-fidelity prototyped screen, designed with Emily in mind.
+				</p>
+			</div>
+			<div class = "port_img bay_cities">
+				<img src="https://imgur.com/4Of1w9H.png">
+			</div>
+			<div class = "port_img hover_text hover_baycities">
+				<h4> DIY Pack Low-Fidelity Prototype </h4>
+				<p>
+					For this project, we were given an existing style guide, but no UX or user pathways. I received this project 4 hours before it was to be presented on a client call. We needed to demonstrate two separate paths: a fully customized box and a template-based box. This screen is part of the template-based experience. I wanted to create a low-fidelity prototype instead of a wireframe because I wanted to show the client we were taking their branding and aesthetics into consideration; it wasn't just about the functionality.
+					<br> <br>
+					I had a few constraints on my design. Our developers were implementing XMPie software, and our budget did not allow for much customization of its out-of-the-box UX or UI. By speaking to our developers and understanding our client's requirements, I was able to quickly create this design and meet everyone's needs. The final deliverable was a low-fidelity clickable prototype (using Adobe XD). 
+				</p>
+			</div>
+		</div>
+		<div class = "port_container">
+			 <div class = "port_img interview_connect_one"> 
+				<img src="https://imgur.com/oEqj0iS.png">
+			</div>
+		 	<div class = "port_img hover_text hover_ic">
+				<h4> Interview Connect </h4>
+				<p>
+					This was a project for my Human Computer Interaction (HCI) course. The problem I identified was the lack of free interview preparation and feedback for people who are out of college or prefer practicing from the comfort of their own home. This website functions as a forum, where interview questions will be posted and users can upload video or audio responses. Then, other users can review their answers based on a general rubric. To see the final clickable prototype, click <a href="https://xd.adobe.com/view/08e889d1-44dc-4762-79cd-66f84dcdf66d-7ed9/" style="color: #F4976C"> here </a>. 
+					<br> <br>
+					Shown on the right is a description of the UX Lifecycle we followed during the various phases of our project. 
+				</p>
+			</div>
+			<div class = "port_img interview_connect_two">
+				<img src="https://imgur.com/bvHkCZ6.png">
+			</div>
+		</div>
+		<div class = "port_container">
+			<div class = "port_img lease_labs_one">
+				<img src = "https://imgur.com/SyXpViw.png">
+			</div>
+			<div class = "port_img hover_text hover_LL1">
+				<h4> LeaseLab Admin Portal Prototype </h4>
+				<p>
+					 We received a style guide and prototype for the end-user's portion of LeaseLabs site. However, the back-end interfaces were not planned-out. After researching what the various levels of Admins users would need access to, I designed the user pathways and interface to match the company's expectations for the rest of the site. 
+				</p>
+			</div>
+			<div class = "port_img lease_labs_two">
+				<img src="https://imgur.com/ztn55oD.png">
+			</div>
+			<div class = "port_img hover_text hover_LL2">
+				<h4> LeaseLab Vendor Dashboard Prototype </h4>
+				<p>
+					 This is another example of a back-end interface I designed for LeaseLabs. The prototype was for the third-party vendors who would be printing the materials ordered from LeaseLabs' site.  
+				</p>
+			</div>
+		</div>
+		<div class = "port_container">
+			<div class = "port_img spec_analysis_one">
+				<img src="https://imgur.com/Va9WFNk.jpg">
+			</div>
+			<div class = "port_img hover_text hover_spec">
+				<h4> Specification Annotation </h4>
+				<p>
+					For the projects that require extensive technical and business documentation, I markup the prototypes, breaking each screen down into basic components. The written document and developer tasks are structured around this hierarchy.
+				</p>
+			</div>
+			<div class ="port_img notification">
+				<img src="https://imgur.com/yIyC2Pl.png">
+			</div>
+			<div class = "port_img hover_text hover_notification">
+				<h4> Notification Research </h4>
+				<p>
+					The client was unsure which form of notification was the best. I researched the 2 types they were considering and presented the pros/cons of both. 
+				</p>
+			</div>
+			<div class = "port_img user_research">
+				<img src="https://imgur.com/lTN0JNT.png">
+			</div>
+			<div class = "port_img hover_text hover_user_research">
+				<h4> Specification Annotation </h4>
+				<p>
+					For the projects that require extensive technical and business documentation, I markup the prototypes, breaking each screen down into basic components. The written document and developer tasks are structured around this hierarchy.
+				</p>
+			</div>
+		</div>
+		<div class = "port_container">
+			<div class = "port_img cav_daily">
+				<a href="https://www.cavalierdaily.com/staff/caitlin-abramson">
+					<img src="https://imgur.com/c5b8STn.png">
+				</a>
+			</div>
+			<div class = "port_img hover_text hover_cavdaily">
+				<p>
+					I wrote for the Health and Science section of the school newspaper, The Cavalier Daily. The left, are icons which represent various articles I wrote (recycling, free female hygiene, and Care+Wear). Click on them to read the online publications!
+				</p>
+			</div>
+			<div class= "port_img recycle">
+				<a href="https://www.cavalierdaily.com/article/2018/09/recycling-on-vs-off-grounds-whats-the-difference">
+					<img src="https://imgur.com/8lb3H2r.png">
+				</a>
+			</div>
+			<div class="port_img female">
+				<a href="https://www.cavalierdaily.com/article/2018/03/free-menstrual-hygiene-products-placed-in-newcomb-bathrooms">
+					<img src="https://imgur.com/LfpBI7e.png">
+				</a>
+			</div>
+			<div class="port_img care_wear">
+				<a href="https://www.cavalierdaily.com/article/2018/05/alumnus-partners-with-fashion-designer-oscar-de-la-renta-to-create-clothing-aimed-at-improving-patient-comfort">
+					<img src="https://imgur.com/GLcGqjt.png">
+				</a>
+			</div>
+		</div>
+
+
+		</div>
+	</div>
+			
+</body>
+
+
+		
 </body>
